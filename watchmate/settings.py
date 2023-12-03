@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o*qu3b7vo9%z1hqec+^=stl7&*2g+2l2(8t1a-9s1x7b2juvk@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'watchmate.wsgi.application'
+WSGI_APPLICATION = 'watchmate.wsgi.app'
 
 
 # Database
